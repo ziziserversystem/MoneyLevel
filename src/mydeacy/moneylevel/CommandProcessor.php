@@ -11,7 +11,7 @@ use pocketmine\Server;
 
 class CommandProcessor {
 
-	const Commands = ["lvup", "toplv", "viewlv"];
+	const Commands = ["lvup", "toplv", "seelv"];
 
 	const OpCmds = ["setlv"];
 
@@ -66,7 +66,7 @@ class CommandProcessor {
 					Server::getInstance()->getOps()->getAll(), $config->get("toplv-enable-op"));
 				Server::getInstance()->getAsyncPool()->submitTask($task);
 				return true;
-			case "viewlv":
+			case "seelv":
 				if(!isset($args[0])){
 					$args[0] = $sender->getName();
 				}
