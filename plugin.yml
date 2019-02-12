@@ -12,9 +12,9 @@ commands:
     description: "Level up!"
     usage: "/lvup {amount}"
     permission: moneylevel.lvup
-  viewlv:
+  seelv:
     description: "view level"
-    usage: "/viewlv {target}"
+    usage: "/seelv {target}"
     permission: moneylevel.viewlv
   toplv:
     description: "Level Ranking"
