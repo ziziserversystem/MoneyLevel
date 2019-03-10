@@ -26,6 +26,6 @@ EconomyAPIのみサポートしています
 | -------- | --------------- | ---------------------------------------- |
 | /setlv   | {name} {amount} | {name}のレベルを{amount}の額に設定 |
 
-## info
+## Info
 
 for zizi server
