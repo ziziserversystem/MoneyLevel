@@ -9,15 +9,15 @@ load: STARTUP
 description: "Economy level plugin"
 commands:
   lvup:
-    description: "Level up!"
+    description: "レベルを上げる"
     usage: "/lvup {amount}"
     permission: moneylevel.lvup
   seelv:
-    description: "view level"
+    description: "レベル見る"
     usage: "/seelv {target}"
     permission: moneylevel.viewlv
   toplv:
-    description: "Level Ranking"
+    description: "レベルランキング"
     usage: "/toplv {page}"
     permission: moneylevel.toplv
   lvhelp:
@@ -25,7 +25,7 @@ commands:
     usage: "/lvhelp"
     permission: moneylevel.lvhelp
   setlv:
-    description: "Set Level"
+    description: "レベルセット"
     usage: "/setlv {target} {amount}"
     permission: moneylevel.setlv
 
@@ -40,4 +40,4 @@ permissions:
       moneylevel.toplv:
         default: true
       moneylevel.lvhelp:
-        default: true
+        default: false
